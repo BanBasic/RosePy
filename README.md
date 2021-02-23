@@ -1,5 +1,6 @@
 # RosePy
-<img src="./img/logo.png" hspace="20%" width="60%"
+
+<img src="./img/logo.png" hspace="20%" width="60%">
 
 
 - Do you like machine learning? Dogecoin? Stonks? Roses? ...Well **Rosepy** Is **another**
