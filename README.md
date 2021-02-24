@@ -1,4 +1,4 @@
-<img src="./img/logo.png" hspace="40%" width="20%">
+<img src="./img/logo.png" hspace="40%" width="50%">
 
 # RosePy
 
