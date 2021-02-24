@@ -1,6 +1,4 @@
-<img src="./img/logo.png" hspace="40%" width="50%">
-
-# RosePy
+<img src="./img/logo.png" width="50%">
 
 - Do you like machine learning? Dogecoin? Stonks? Roses? ...Well **Rosepy** Is **another**
   small machine learning library written in pure Numpy (educational purpose only).
