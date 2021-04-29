@@ -9,8 +9,11 @@ class Layer:
     self.cache = {}
     self.grads = {}
 
-  def forward(self, input): raise NotImplementedError
-  def backward(self, dout): raise NotImplementedError
+  def forward(self, input): 
+    raise NotImplementedError
+
+  def backward(self, dout): 
+    raise NotImplementedError
 
   def im2col(self, input, HH, WW, stride=1, pad=0):
     N, C, H, W = input.shape
@@ -101,7 +104,7 @@ class MaxPooling(Layer):
     super(MaxPooling, self).__init__()
     self.stride, self.size = size_filters, size_filters
 
-  def forward(self, input):         # TODO look at output looks wrong
+  def forward(self, input):         
     self.cache["input"] = input 
     stride, HH, WW = self.stride, self.size, self.size
     N, C, H, W = self.cache["input"].shape 

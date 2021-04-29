@@ -1,6 +1,6 @@
 import pickle
 import numpy as np
-from rose import *
+from src.rose import *
 
 class network: 
   def __init__(self, Model): 
